@@ -248,11 +248,11 @@ export default {
 				},
 				{
 					text: "GitHub",
-					link: "https://github.com/vinaysomawat",
+					link: "https://github.com/A2U8C",
 				},
 				{
 					text: "LeetCode",
-					link: "https://leetcode.com/somawatvinay/",
+					link: "https://leetcode.com/ankush_A2U8C/",
 				},
 			],
 		},
