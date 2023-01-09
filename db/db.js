@@ -76,14 +76,14 @@ export default {
 				projectName: "Programming Diaries",
 				image: "images/programmingdiaries.png",
 				summary:
-					"Developed a full stack blog application to provide content on techical topics across the internet with admin interface.",
-				preview: "https://programmingdiaries.herokuapp.com/",
+					"Deployed a responsive website to fetch information about 10 businesses satisfying user’s requirements. Bookings were saved in the localstorage of the system. The backend is developed on NodeJS which uses YELP API for data retrieval.",
+				preview: "https://angular-yelp-project.wl.r.appspot.com/",
 				techStack: [
-					"Django",
-					"SQLite",
+					"Angular",
+					"Node.JS",
 					"Bootstrap",
 					"JavaScript",
-					"Heroku",
+					"Google Cloud Platform",
 				],
 			},
 			{
