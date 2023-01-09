@@ -71,7 +71,7 @@ export default {
 		},
 	],
 	projects: {
-		web: [
+		Web Technology: [
 			{
 				projectName: "YelpHelper",
 				image: "images/programmingdiaries.png",
@@ -103,7 +103,7 @@ export default {
 				techStack: ["MySQL", "Bootstrap", "JavaScript","Laravel"],
 			},
 		],
-		software: [
+		Data Mining: [
 			{
 				projectName: "Hybrid Recommendation System using Spark RDD",
 				image: "images/pizzaorderchatbot.png",
@@ -114,23 +114,26 @@ export default {
 				techStack: ["PySpark", "Python"],
 			},
 			{
-				projectName: "Precondition Inference using Deberta-V3-Large model",
-				image: "images/whatsappbot.jpg",
+				projectName: "Communities Detection using Spark GraphFrames",
+				image: "images/pizzaorderchatbot.png",
 				summary:
-					"Dataset provided pair of sentences, the first one is considered as a precondition, while the second one is a statement. Built a system for detecting whether the precondition will enable or disable the statement. Achieved an accuracy of 90.54%. Placed in the top 20% for the accuracy of the system out of 300 students.",
-				preview: "https://github.com/vinaysomawat/WhatsApp-Bot",
-				techStack: ["Deberta-V3-Large", "Python", "Machine Learning"],
+					"Implemented Girvan-Newman algorithm to find communities in a graph. The communities were created with a similar business taste. Implemented using edge Betweenness.",
+				preview:
+					"https://github.com/A2U8C/Scala_Data_Mining-Assignments/tree/main/Scala_DSCI553_Assignment_4",
+				techStack: ["Spark", "Scala","GraphFrames"],
 			},
 			{
-				projectName: "Hotel reviews classification using Naive Bayes classifier",
-				image: "images/billgenerator.png",
+				projectName: "Hybrid Recommendation System using Spark RDD",
+				image: "images/pizzaorderchatbot.png",
 				summary:
-					"Implemented a Naive Bayes classifier to identify hotel reviews as either truthful or deceptive, and either positive or negative. Achieved a mean F1 of 0.9219 on unseen testing data.",
-				preview: "https://github.com/A2U8C/NLP_Assignments/tree/main/NLP_NaiveBayesAlgorithms",
-				techStack: [" Naive Bayes","Machine Learning", "Python"],
+					"Developed a hybrid recommendation system using the weighted average approach to efficiently predict ratings for Yelp Data. The system is a combination of Item Based Collaborative filtering and model-based (XGBregressor) recommendation system. Achieved an RMSE of 0.9779 on the testing data.",
+				preview:
+					"https://github.com/A2U8C/Data_Mining-Competitive_Project",
+				techStack: ["PySpark", "Python"],
 			},
+			
 		],
-		android: [
+		Android: [
 			{
 				projectName: "Yelper: Android application with Node.js backend and YELP API",
 				image: "images/nitwcse.jpg",
@@ -148,23 +151,22 @@ export default {
 				techStack: ["JAVA", "XML", "Android"],
 			},
 		],
-		freelance: [
+		Machine Learning: [
 			{
-				projectName: "SnylloAir.com",
-				image: "images/snylloair.png",
+				projectName: "Precondition Inference using Deberta-V3-Large model",
+				image: "images/whatsappbot.jpg",
 				summary:
-					"Developed a company website to showcase the purpose, services and products provided by the company to audience.",
-				preview: "https://www.snylloair.com/",
-				techStack: ["Bootstrap", "JavaScript", "AWS-S3"],
+					"Dataset provided pair of sentences, the first one is considered as a precondition, while the second one is a statement. Built a system for detecting whether the precondition will enable or disable the statement. Achieved an accuracy of 90.54%. Placed in the top 20% for the accuracy of the system out of 300 students.",
+				preview: "https://github.com/vinaysomawat/WhatsApp-Bot",
+				techStack: ["Deberta-V3-Large", "Python", "Machine Learning"],
 			},
 			{
-				projectName: "Delivery+",
-				image: "images/AM-Logo-.png",
+				projectName: "Hotel reviews classification using Naive Bayes classifier",
+				image: "images/billgenerator.png",
 				summary:
-					"Android Application to display website in android devices.",
-				preview:
-					"https://play.google.com/store/apps/details?id=com.americanmarket.americanmarketandroid",
-				techStack: ["Android", "JAVA", "Play Store"],
+					"Implemented a Naive Bayes classifier to identify hotel reviews as either truthful or deceptive, and either positive or negative. Achieved a mean F1 of 0.9219 on unseen testing data.",
+				preview: "https://github.com/A2U8C/NLP_Assignments/tree/main/NLP_NaiveBayesAlgorithms",
+				techStack: [" Naive Bayes","Machine Learning", "Python"],
 			},
 		],
 	},
