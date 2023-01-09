@@ -218,35 +218,40 @@ export default {
 	],
 	education: [
 		{
-			title: "Bachelors in Computer Science and Engineering",
+			title: "Master of Science in Computer Science",
 			duration: "",
-			subtitle: "National Institute of Technology, Warangal",
+			subtitle: "University of Southern California, Los Angeles, California",
 			details: [
-				"Qualified GATE-2020.",
-				"Active Competitive Programmer with CodeChef Rating 1841*.",
-				"Received 500+ stars and 300+ forks on GitHub projects.",
+				"GPA: 3.66 / 4.0",
 			],
 			tags: [
-				"Data Structures & Algorithms",
+				"Analysis of Algorithms", 
+				"Database Systems", 
+				"Data Mining", 
+				"Natural Language Processing", 
+				"Web Technologies",
+			],
+			icon: "book",
+		},
+		{
+			title: "Bachelor of Engineering in Computer Engineering",
+			duration: "",
+			subtitle: "Vivekanand Education Society's Institute of Technology, Mumbai University, India",
+			details: [
+				"GPA: 9.76 / 10.00",
+				"Secured first place in second year engineering with a 10/10 GPA",
+			],
+			tags: [
+				"Data Structures",
 				"Operating Systems",
 				"Database Management System",
-				"Computer Networks",
-				"Compiler Designing",
+				"Machine Learning",
+				"Object Oriented Programming",
 				"Cloud Computing",
 			],
 			icon: "graduation-cap",
 		},
-		{
-			title: "Class 11-12th in Science and Mathematics",
-			duration: "",
-			subtitle: "Board of Secondary Education, Rajasthan",
-			details: [
-				"Qualified JEE Advanced, Main & BITSAT.",
-				"Secured 99.5 percentile in Class 12th Boards Examinations.",
-			],
-			tags: ["Physics", "Chemistry", "Mathematics"],
-			icon: "book",
-		},
+		
 	],
 	footer: [
 		{
