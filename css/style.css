@@ -2058,15 +2058,15 @@ ul {
 	background: #f9bf3f;
 	font-size: 14px;
 	padding-left: 0px;
-	padding-top: 10%;
-	padding-bottom: 10%;
+	padding-top: 5%;
+	padding-bottom: 5%;
 }
 
 .submenu li {
 	/* border-bottom: 1px solid #000; */
-	margin-top: 10%;
-	margin-bottom: 10%;
-	padding: 10%;
+	margin-top: 10px;
+	margin-bottom: 5%;
+	padding: 5%;
 }
 
 .submenu li:hover {
