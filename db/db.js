@@ -103,7 +103,7 @@ export default {
 				techStack: ["MySQL", "Bootstrap", "JavaScript","Laravel"],
 			},
 		],
-		software: [
+		software : [
 			{
 				projectName: "Hybrid Recommendation System using Spark RDD",
 				image: "images/pizzaorderchatbot.png",
@@ -133,7 +133,7 @@ export default {
 			},
 			
 		],
-		android: [
+		android : [
 			{
 				projectName: "Yelper: Android application with Node.js backend and YELP API",
 				image: "images/nitwcse.jpg",
@@ -151,7 +151,7 @@ export default {
 				techStack: ["JAVA", "XML", "Android"],
 			},
 		],
-		freelancer: [
+		freelance: [
 			{
 				projectName: "Precondition Inference using Deberta-V3-Large model",
 				image: "images/whatsappbot.jpg",
