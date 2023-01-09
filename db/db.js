@@ -198,7 +198,7 @@ export default {
 				"Machine Learning",
 				"Python",
 			],
-			icon: "qrcode",
+			icon: "group",
 		},
 	],
 	education: [
