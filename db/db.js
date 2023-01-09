@@ -105,37 +105,37 @@ export default {
 		],
 		software: [
 			{
-				projectName: "Pizza Ordering ChatBot",
+				projectName: "Hybrid Recommendation System using Spark RDD",
 				image: "images/pizzaorderchatbot.png",
 				summary:
-					"ChatBot using Dialogflow, Firebase database which stores the chat data in the realtime database.",
+					"Developed a hybrid recommendation system using the weighted average approach to efficiently predict ratings for Yelp Data. The system is a combination of Item Based Collaborative filtering and model-based (XGBregressor) recommendation system. Achieved an RMSE of 0.9779 on the testing data.",
 				preview:
-					"https://github.com/vinaysomawat/Pizza-Ordering-ChatBot",
-				techStack: ["Dailogflow", "Firebase"],
+					"https://github.com/A2U8C/Data_Mining-Competitive_Project",
+				techStack: ["PySpark", "Python"],
 			},
 			{
-				projectName: "WhatsApp-Bot",
+				projectName: "Precondition Inference using Deberta-V3-Large model",
 				image: "images/whatsappbot.jpg",
 				summary:
-					"Python script which helps to send messages to WhatsApp contacts automatically using selenium and web automation.",
+					"Dataset provided pair of sentences, the first one is considered as a precondition, while the second one is a statement. Built a system for detecting whether the precondition will enable or disable the statement. Achieved an accuracy of 90.54%. Placed in the top 20% for the accuracy of the system out of 300 students.",
 				preview: "https://github.com/vinaysomawat/WhatsApp-Bot",
-				techStack: ["Selenium", "Chrome Webdriver", "Python"],
+				techStack: ["Deberta-V3-Large", "Python", "Machine Learning"],
 			},
 			{
-				projectName: "Bill Generator",
+				projectName: "Hotel reviews classification using Naive Bayes classifier",
 				image: "images/billgenerator.png",
 				summary:
-					"GUI to transfer data to excel sheets and generate bills on the local shops.",
-				preview: "https://github.com/vinaysomawat/Bill-Generator",
-				techStack: ["Tkinter", "Openxlpy", "Python"],
+					"Implemented a Naive Bayes classifier to identify hotel reviews as either truthful or deceptive, and either positive or negative. Achieved a mean F1 of 0.9219 on unseen testing data.",
+				preview: "https://github.com/A2U8C/NLP_Assignments/tree/main/NLP_NaiveBayesAlgorithms",
+				techStack: [" Naive Bayes","Machine Learning", "Python"],
 			},
 		],
 		android: [
 			{
-				projectName: "NITW-CSE",
+				projectName: "Yelper: Android application with Node.js backend and YELP API",
 				image: "images/nitwcse.jpg",
 				summary:
-					"The Application display details of Department courses, reference books, research, publication and faculty profile.",
+					"Devised an android application to fetch information about 9 businesses satisfying user’s requirements. Integrated Google API and GPS to fetch geolocation of the search. Bookings stored in sharedpreferance of the application.",
 				preview: "https://github.com/vinaysomawat/NITW-CSE",
 				techStack: ["JAVA", "XML", "Android"],
 			},
