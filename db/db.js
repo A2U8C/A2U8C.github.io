@@ -172,50 +172,33 @@ export default {
 	},
 	experience: [
 		{
-			title: "Biofourmis India Pvt. Ltd.",
-			duration: "April 2022 - Present",
-			subtitle: "Software Engineer",
+			title: "University of Southern California",
+			duration: "May 2022 - Present",
+			subtitle: "Graduate Research Assistant",
 			details: [
-				"Working on the products in the healthcare/digital therapeutics domain."
+				"Working under Dr. Neda Jahanshad. Worked on the ENIGMA Ontology, where coordinated for analyzing the data and generating information which was later uploaded to the wiki as documentation. Currently working to harmonize the alzheimer's disease data. "
 			],
 			tags: [
-				"JavaScript",
-				"Angular",
-				"Bootstrap",
-				"Nodejs",
-				"Jenkins",
+				"Python",
+				"Pandas",
+				"Numpy",
+				"Data Processing",
 			],
 			icon: "heartbeat",
 		},
 		{
-			title: "Novopay Solutions Pvt. Ltd.",
-			duration: "June 2020 - April 2022",
-			subtitle: "Software Engineer",
+			title: "GFI Informatique India private limited",
+			duration: "December 2019 - January 2020",
+			subtitle: "INTERN",
 			details: [
-				"Implemented Aadhaar Enabled Payment services such as Bio-metric eKYC, Cash Withdrawal, Balance Enquiry, Mini-Statements, and Money transfer; completed more than 20 story points in each sprint.",
-				"Integrated QR Code and reduced the effective time by 50 percent to load money into wallet, Clevertap events to track user actions, Freshdesk ticketing service and chat-bot services. Worked on user onboarding, approval, and finance interfaces.",
-				"Co-ordinated closely with the product team, backend team, android team, and QA team to deliver the product builds before deadlines.",
+				"Worked on “Oracle Machine Learning”. Explored methods to integrate different tables for execution of machine learning model in database itself; training a model on a set of data directly retrieved from database.",
 			],
 			tags: [
-				"JavaScript",
-				"Angular",
-				"React",
-				"Bootstrap",
-				"Nodejs",
-				"Jenkins",
+				"Oracle Database",
+				"Machine Learning",
+				"Python",
 			],
 			icon: "qrcode",
-		},
-		{
-			title: "ThinkPedia LLP",
-			duration: "May 2019 - June 2019",
-			subtitle: "SDE Intern",
-			details: [
-				"Worked as a full stack developer to support tech team.",
-				"Developed a customer Web Application from scratch for social media management.",
-			],
-			tags: ["JavaScript", "Angular", "Bootstrap", "Java", "Spring Boot"],
-			icon: "group",
 		},
 	],
 	education: [
