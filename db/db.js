@@ -151,7 +151,7 @@ export default {
 				techStack: ["JAVA", "XML", "Android"],
 			},
 		],
-		freelance: [
+		freelance : [
 			{
 				projectName: "Precondition Inference using Deberta-V3-Large model",
 				image: "images/whatsappbot.jpg",
