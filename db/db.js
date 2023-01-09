@@ -71,7 +71,7 @@ export default {
 		},
 	],
 	projects: {
-		"Web Technology": [
+		web: [
 			{
 				projectName: "YelpHelper",
 				image: "images/programmingdiaries.png",
@@ -103,7 +103,7 @@ export default {
 				techStack: ["MySQL", "Bootstrap", "JavaScript","Laravel"],
 			},
 		],
-		"Data Mining": [
+		software: [
 			{
 				projectName: "Hybrid Recommendation System using Spark RDD",
 				image: "images/pizzaorderchatbot.png",
@@ -133,7 +133,7 @@ export default {
 			},
 			
 		],
-		"Android": [
+		android: [
 			{
 				projectName: "Yelper: Android application with Node.js backend and YELP API",
 				image: "images/nitwcse.jpg",
@@ -151,7 +151,7 @@ export default {
 				techStack: ["JAVA", "XML", "Android"],
 			},
 		],
-		"Machine Learning": [
+		freelancer: [
 			{
 				projectName: "Precondition Inference using Deberta-V3-Large model",
 				image: "images/whatsappbot.jpg",
