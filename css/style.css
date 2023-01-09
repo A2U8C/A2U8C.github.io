@@ -697,7 +697,7 @@ body.offcanvas .colorlib-nav-toggle {
 }
 
 .project-card {
-	height: 150px;
+	height: cover;
 }
 
 .project-info {
@@ -2065,14 +2065,14 @@ ul {
 .submenu li {
 	/* border-bottom: 1px solid #000; */
 	margin-top: 10px;
-	margin-bottom: 5%;
-	padding: 5%;
+	margin-bottom: 10px;
+	padding: 10px;
 }
 
 .submenu li:hover {
 	background: rgba(255, 255, 0, 0.705);
 	box-shadow: -1px 1px 51px -20px rgba(0,0,0,1);
-	border-radius: 5%;
+	border-radius: 5px;
 	color: #fff;
 }
 
@@ -2080,8 +2080,8 @@ ul {
 	display: block;
 	text-decoration: none;
 	color: #d9d9d9;
-	padding: 12%;
-	padding-left: 10%;
+	padding: 12px;
+	padding-left: 10px;
 	-webkit-transition: all 0.25s ease;
 	-o-transition: all 0.25s ease;
 	transition: all 0.25s ease;
