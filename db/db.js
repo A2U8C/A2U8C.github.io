@@ -73,7 +73,7 @@ export default {
 	projects: {
 		web: [
 			{
-				projectName: "Programming Diaries",
+				projectName: "YelpHelper",
 				image: "images/programmingdiaries.png",
 				summary:
 					"Deployed a responsive website to fetch information about 10 businesses satisfying user’s requirements. Bookings were saved in the localstorage of the system. The backend is developed on NodeJS which uses YELP API for data retrieval.",
@@ -87,28 +87,20 @@ export default {
 				],
 			},
 			{
-				projectName: "Find Your Bank",
+				projectName: "YELPify",
 				image: "images/findyourbank.png",
 				summary:
-					"Developed a React application to render a list of banks fetched from API. Filtered the banks based on queries from localstorage, marked favorites banks.",
-				preview: "https://clever-fermi-0d5d76.netlify.app",
-				techStack: ["Reactjs", "Bootstrap", "JavaScript", "Netlify"],
+					"Deployed a website to fetch information about 20 businesses satisfying user’s requirements using Flask. Integrated ipinfo.io API to fetch user’s geolocation.",
+				preview: "https://web-yelp-project.wl.r.appspot.com/",
+				techStack: ["Python", "DOM", "JavaScript", "XMLHttpRequest", "Flask"],
 			},
 			{
 				projectName: "Web Portfolio",
 				image: "images/portfolio.png",
 				summary:
-					"Web Portfolio to showcase acadmics, skills, projects and contact details in better manner.",
-				preview: "https://github.com/vinaysomawat/Travographer-Portal",
-				techStack: ["HTML", "Bootstrap", "JavaScript"],
-			},
-			{
-				projectName: "Resume Builder",
-				image: "images/resume-builder.png",
-				summary:
-					"Browser based editor to build and download Resumes in a customizable templates.",
-				preview: "https://vinaysomawat.github.io/Resume-Builder",
-				techStack: ["HTML", "Bootstrap", "JavaScript"],
+					"Developed a website to help user to rent or borrow a vehicle. Orders and details were stored in MySQL database. Renters can view rented vehicles and then access details by means of dashboard.",
+				preview: "https://github.com/A2U8C/Laravel_Project-Car_Rental_System",
+				techStack: ["MySQL", "Bootstrap", "JavaScript","Laravel"],
 			},
 		],
 		software: [
