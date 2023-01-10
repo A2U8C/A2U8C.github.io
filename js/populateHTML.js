@@ -388,12 +388,12 @@ function populate_Activites(items, id) {
 		spanTimelineSublabel.className = "timeline-sublabel";
 		// spanTimelineSublabel.innerHTML = items[i].subtitle;
 
-		let spanh2 = document.createElement("span");
-		spanh2.innerHTML = items[i].duration;
+		// let spanh2 = document.createElement("span");
+		// spanh2.innerHTML = items[i].duration;
 
 		let h2TimelineLabel = document.createElement("h2");
 		h2TimelineLabel.innerHTML = items[i].title;
-		h2TimelineLabel.append(spanh2);
+		// h2TimelineLabel.append(spanh2);
 
 		let divTimelineLabel = document.createElement("div");
 		divTimelineLabel.className = "timeline-label";
