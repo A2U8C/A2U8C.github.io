@@ -238,6 +238,42 @@ export default {
 		},
 		
 	],
+	publication: [
+		{
+			title: "Cataract Eye Detection Using Machine Learning Models",
+			duration: "",
+			subtitle: "",
+			details: [
+				"https://doi.org/10.1007/978-981-15-9774-9_84",
+			],
+			tags: [
+			],
+			icon: "book",
+		},
+		{
+			title: "A Proposal for a novel approach to analyze and detect the fake news using AI techniques",
+			duration: "",
+			subtitle: "",
+			details: [
+				"https://ieeexplore.ieee.org/document/9316056",
+			],
+			tags: [
+			],
+			icon: "book",
+		},
+		{
+			title: "NewsCheck: A Fake News Detection and Analysis System",
+			duration: "",
+			subtitle: "",
+			details: [
+				"https://doi.org/10.1007/978-981-16-5301-8_42",
+			],
+			tags: [
+			],
+			icon: "book",
+		},
+		
+	],
 	footer: [
 		{
 			label: "Dev Profiles",
