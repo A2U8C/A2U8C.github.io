@@ -241,7 +241,7 @@ export default {
 	publication : [
 		{
 			title: "Cataract Eye Detection Using Machine Learning Models",
-			duration: "",
+			duration: "2021",
 			subtitle: "",
 			details: [
 				"https://doi.org/10.1007/978-981-15-9774-9_84",
@@ -252,7 +252,7 @@ export default {
 		},
 		{
 			title: "A Proposal for a novel approach to analyze and detect the fake news using AI techniques",
-			duration: "",
+			duration: "2020",
 			subtitle: "",
 			details: [
 				"https://ieeexplore.ieee.org/document/9316056",
@@ -263,7 +263,7 @@ export default {
 		},
 		{
 			title: "NewsCheck: A Fake News Detection and Analysis System",
-			duration: "",
+			duration: "2022",
 			subtitle: "",
 			details: [
 				"https://doi.org/10.1007/978-981-16-5301-8_42",
