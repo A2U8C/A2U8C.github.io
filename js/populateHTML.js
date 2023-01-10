@@ -263,7 +263,6 @@ function populateExp_Publication(items, id) {
 		let a = document.createElement("a");
 		a.href = items[i].preview;
 		a.target = "_blank";
-		a.append(divTimelineLabel);
 
 
 		for (let j = 0; j < items[i].details.length; j++) {
@@ -299,6 +298,8 @@ function populateExp_Publication(items, id) {
 		article.append(divTimelineEntryInner);
 
 		mainContainer.append(article);
+		
+		a.append(mainContainer);
 	}
 
 	let divTimelineIcon = document.createElement("div");
