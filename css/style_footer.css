@@ -2,6 +2,7 @@
 
 .footer_ui {
   display: flex;
+  width: fit-content;
   /* position: absolute; */
   /* left: 50%; */
   /* transform: translate(-50%, -50%); */
