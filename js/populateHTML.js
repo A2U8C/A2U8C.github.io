@@ -259,13 +259,12 @@ function populateExp_Publication(items, id) {
 		a.target = "_blank";
 
 		let divTimelineLabel = document.createElement("div");
-		a.append(divTimelineLabel);
 		divTimelineLabel.className = "timeline-label";
-		divTimelineLabel.append(h2TimelineLabel);
-		divTimelineLabel.append(spanTimelineSublabel);
 
 		
-		
+		a.append(divTimelineLabel);
+		divTimelineLabel.append(h2TimelineLabel);
+		divTimelineLabel.append(spanTimelineSublabel);
 		
 
 
