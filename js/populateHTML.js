@@ -263,6 +263,7 @@ function populateExp_Publication(items, id) {
 		let a = document.createElement("a");
 		a.href = items[i].preview;
 		a.target = "_blank";
+		a.append(divTimelineLabel);
 
 
 		for (let j = 0; j < items[i].details.length; j++) {
@@ -291,15 +292,13 @@ function populateExp_Publication(items, id) {
 		let divTimelineEntryInner = document.createElement("div");
 		divTimelineEntryInner.className = "timeline-entry-inner";
 		divTimelineEntryInner.append(divTimelineIcon);
-		divTimelineEntryInner.append(divTimelineLabel);
+		divTimelineEntryInner.append(a);
 
 		let article = document.createElement("article");
 		article.className = "timeline-entry animate-box";
 		article.append(divTimelineEntryInner);
 
 		mainContainer.append(article);
-		
-		a.append(mainContainer);
 	}
 
 	let divTimelineIcon = document.createElement("div");
