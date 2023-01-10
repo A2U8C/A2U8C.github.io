@@ -241,7 +241,7 @@ export default {
 	activities : [
 		{
 			title: "Secured first place in second year engineering with a 10/10 GPA in semesters III and IV during undergraduate.",
-			preview: "book",
+			preview: "https://drive.google.com/file/d/1KbYyEhgUYT5L0gju4kBHFN7KfmWWmSZk/view?usp=sharing",
 			subtitle: "",
 		},
 		{
@@ -256,7 +256,7 @@ export default {
 		},
 		{
 			title: "Completed Certificate course on C/C++ programming languages from Aptech Institute, India",
-			preview: "book",
+			preview: "https://drive.google.com/file/d/1SDn48TeLURDan5MAEHe0djGKH6gNQziy/view",
 			subtitle: "",
 			duration: "",
 		},

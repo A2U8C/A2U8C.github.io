@@ -400,6 +400,13 @@ function populate_Activites(items, id) {
 		divTimelineLabel.append(h2TimelineLabel);
 		divTimelineLabel.append(spanTimelineSublabel);
 
+
+		let a = document.createElement("a");
+		a.href = items[i].preview;
+		a.target = "_blank";
+		a.append(divTimelineLabel);
+
+
 		let divTimelineIcon = document.createElement("div");
 		divTimelineIcon.className = "timeline-icon color-2";
 		// divTimelineIcon.append(iFa);
@@ -407,7 +414,7 @@ function populate_Activites(items, id) {
 		let divTimelineEntryInner = document.createElement("div");
 		divTimelineEntryInner.className = "timeline-entry-inner";
 		divTimelineEntryInner.append(divTimelineIcon);
-		divTimelineEntryInner.append(divTimelineLabel);
+		divTimelineEntryInner.append(a);
 
 		let article = document.createElement("article");
 		article.className = "timeline-entry animate-box";
