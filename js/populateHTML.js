@@ -250,22 +250,20 @@ function populateExp_Publication(items, id) {
 		spanh2.innerHTML = items[i].duration;
 
 		let h2TimelineLabel = document.createElement("h2");
-		h2TimelineLabel.innerHTML = items[i].tit
-		
+		h2TimelineLabel.innerHTML = items[i].title;
+		h2TimelineLabel.append(spanh2);
 
-
-		let a = document.createElement("a");
-		a.href = items[i].preview;
-		a.target = "_blank";
 
 		let divTimelineLabel = document.createElement("div");
 		divTimelineLabel.className = "timeline-label";
-
-		
-		a.append(divTimelineLabel);
 		divTimelineLabel.append(h2TimelineLabel);
 		divTimelineLabel.append(spanTimelineSublabel);
+
 		
+		let a = document.createElement("a");
+		a.href = items[i].preview;
+		a.target = "_blank";
+		a.append(divTimelineLabel);
 
 
 		for (let j = 0; j < items[i].details.length; j++) {
