@@ -242,38 +242,53 @@ export default {
 		{
 			title: "Secured first place in second year engineering with a 10/10 GPA in semesters III and IV during undergraduate.",
 			preview: "book",
+			subtitle: "",
 		},
 		{
 			title: "Led a team of 3 members to secure 3rd place in SYRUS HACKATHON2019 at VESIT in March 2019",
 			preview: "book",
+			subtitle: "",
 		},
 		{
 			title: "Headed a team of 6 members to be placed in top 4 positions in National level Smart India Hackathon 2020, where represented the university.",
 			preview: "book",
+			subtitle: "",
 		},
 		{
 			title: "Completed Certificate course on C/C++ programming languages from Aptech Institute, India",
 			preview: "book",
+			subtitle: "",
+			duration: "",
 		},
 		{
 			title: "Participated in TSEC HACKATHON 2018",
 			preview: "book",
+			subtitle: "",
+			duration: "",
 		},
 		{
 			title: "Participated in TSEC HACKATHON 2019",
 			preview: "book",
+			subtitle: "",
+			duration: "",
 		},
 		{
 			title: "Participated in DMCE HACKATHON 2020",
 			preview: "book",
+			subtitle: "",
+			duration: "",
 		},
 		{
 			title: "A member of Rotaract Club of Mumbai Salt City, where was a part of the organising committee.",
 			preview: "book",
+			subtitle: "",
+			duration: "",
 		},
 		{
 			title: "Successfully completed courses on Natural Language Processing, Machine Learning and other courses from Coursera.",
 			preview: "book",
+			subtitle: "",
+			duration: "",
 		},
 		
 	],

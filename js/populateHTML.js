@@ -400,12 +400,12 @@ function populate_Activites(items, id) {
 		divTimelineLabel.append(h2TimelineLabel);
 		divTimelineLabel.append(spanTimelineSublabel);
 
-		for (let j = 0; j < items[i].details.length; j++) {
-			let pTimelineText = document.createElement("p");
-			pTimelineText.className = "timeline-text";
-			pTimelineText.innerHTML = "&blacksquare; " + items[i].details[j];
-			divTimelineLabel.append(pTimelineText);
-		}
+		// for (let j = 0; j < items[i].details.length; j++) {
+		// 	let pTimelineText = document.createElement("p");
+		// 	pTimelineText.className = "timeline-text";
+		// 	pTimelineText.innerHTML = "&blacksquare; " + items[i].details[j];
+		// 	divTimelineLabel.append(pTimelineText);
+		// }
 
 		// let divTags = document.createElement("div");
 		// for (let j = 0; j < items[i].tags.length; j++) {
