@@ -95,7 +95,7 @@ export default {
 				techStack: ["Python", "DOM", "JavaScript", "XMLHttpRequest", "Flask"],
 			},
 			{
-				projectName: "Web Portfolio",
+				projectName: "Car Rental management system using Laravel",
 				image: "images/portfolio.png",
 				summary:
 					"Developed a website to help user to rent or borrow a vehicle. Orders and details were stored in MySQL database. Renters can view rented vehicles and then access details by means of dashboard.",
@@ -126,9 +126,9 @@ export default {
 				projectName: "Hybrid Recommendation System using Spark RDD",
 				image: "images/pizzaorderchatbot.png",
 				summary:
-					"Developed a hybrid recommendation system using the weighted average approach to efficiently predict ratings for Yelp Data. The system is a combination of Item Based Collaborative filtering and model-based (XGBregressor) recommendation system. Achieved an RMSE of 0.9779 on the testing data.",
+					"Developed a system to find frequent itemset amongst two large dataset using the SON Algorithm approach. The system is used to find all the possible combinatoins of the frequent itemset.",
 				preview:
-					"https://github.com/A2U8C/Data_Mining-Competitive_Project",
+					"https://github.com/A2U8C/Data_Mining-Assignments/tree/main/DSCI533_Assignment-2",
 				techStack: ["PySpark", "Python"],
 			},
 			
@@ -143,11 +143,11 @@ export default {
 				techStack: ["JAVA", "XML", "Android"],
 			},
 			{
-				projectName: "CareerHigh-App",
+				projectName: "Android Application for Patrolling officers",
 				image: "images/carrerhigh.png",
 				summary:
-					"The Application display the webpages of website careerhigh.in in android devices.",
-				preview: "https://github.com/vinaysomawat/CareerHigh-Android",
+					"Coded a mobile application for Patrolling officers to increase safety and efficiency. Application provides SOS feature, enabling an officer to contact closest officer via location of all officers. Additionally, it records movement of user.",
+				preview: "https://github.com/A2U8C/DS164_A2M",
 				techStack: ["JAVA", "XML", "Android"],
 			},
 		],
