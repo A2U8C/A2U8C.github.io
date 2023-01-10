@@ -240,38 +240,40 @@ export default {
 	],
 	activities : [
 		{
-			title: "Master of Science in Computer Science",
-			duration: "",
-			subtitle: "University of Southern California, Los Angeles, California",
-			details: [
-				"GPA: 3.66 / 4.0",
-			],
-			tags: [
-				"Analysis of Algorithms", 
-				"Database Systems", 
-				"Data Mining", 
-				"Natural Language Processing", 
-				"Web Technologies",
-			],
-			icon: "book",
+			title: "Secured first place in second year engineering with a 10/10 GPA in semesters III and IV during undergraduate.",
+			preview: "book",
 		},
 		{
-			title: "Bachelor of Engineering in Computer Engineering",
-			duration: "",
-			subtitle: "Vivekanand Education Society's Institute of Technology, Mumbai University, India",
-			details: [
-				"GPA: 9.76 / 10.00",
-				"Secured first place in second year engineering with a 10/10 GPA",
-			],
-			tags: [
-				"Data Structures",
-				"Operating Systems",
-				"Database Management System",
-				"Machine Learning",
-				"Object Oriented Programming",
-				"Cloud Computing",
-			],
-			icon: "graduation-cap",
+			title: "Led a team of 3 members to secure 3rd place in SYRUS HACKATHON2019 at VESIT in March 2019",
+			preview: "book",
+		},
+		{
+			title: "Headed a team of 6 members to be placed in top 4 positions in National level Smart India Hackathon 2020, where represented the university.",
+			preview: "book",
+		},
+		{
+			title: "Completed Certificate course on C/C++ programming languages from Aptech Institute, India",
+			preview: "book",
+		},
+		{
+			title: "Participated in TSEC HACKATHON 2018",
+			preview: "book",
+		},
+		{
+			title: "Participated in TSEC HACKATHON 2019",
+			preview: "book",
+		},
+		{
+			title: "Participated in DMCE HACKATHON 2020",
+			preview: "book",
+		},
+		{
+			title: "A member of Rotaract Club of Mumbai Salt City, where was a part of the organising committee.",
+			preview: "book",
+		},
+		{
+			title: "Successfully completed courses on Natural Language Processing, Machine Learning and other courses from Coursera.",
+			preview: "book",
 		},
 		
 	],
