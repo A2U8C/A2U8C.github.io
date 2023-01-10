@@ -397,6 +397,6 @@ populateExp_Edu(data.education, "education");
 
 
 
-populateExp_Edu(data.publication, "publication");
+populateExp_Publication(data.publication, "publication");
 
 // populateLinks(data.footer, "footer");
