@@ -53,7 +53,7 @@ export default {
 		},
 		{
 			title: "Tools",
-			skillName: "Postman, Jupyter Notebook, Pycharm",
+			skillName: "Jupyter Notebook, Pycharm",
 			color: "3",
 			percentage: "80",
 		},
@@ -62,6 +62,12 @@ export default {
 			skillName: "PySpark, Flask",
 			color: "5",
 			percentage: "85",
+		},
+		{
+			title: "API",
+			skillName: "RestFul Api",
+			color: "4",
+			percentage: "95",
 		},
 	],
 	projects: {
