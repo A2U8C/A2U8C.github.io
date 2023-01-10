@@ -172,7 +172,7 @@ export default {
 	},
 	experience: [
 		{
-			title: "University of Southern California, Los Angeles",
+			title: "University of Southern California, Los Angeles      ",
 			duration: "May 2022 - Present",
 			subtitle: "Graduate Research Assistant",
 			details: [
