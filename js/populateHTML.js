@@ -391,7 +391,7 @@ function populate_Activites(items, id) {
 		let spanh2 = document.createElement("span");
 		spanh2.innerHTML = items[i].duration;
 
-		let h2TimelineLabel = document.createElement("h2");
+		let h2TimelineLabel = document.createElement("h3");
 		h2TimelineLabel.innerHTML = items[i].title;
 		h2TimelineLabel.append(spanh2);
 
@@ -400,27 +400,8 @@ function populate_Activites(items, id) {
 		divTimelineLabel.append(h2TimelineLabel);
 		divTimelineLabel.append(spanTimelineSublabel);
 
-		// for (let j = 0; j < items[i].details.length; j++) {
-		// 	let pTimelineText = document.createElement("p");
-		// 	pTimelineText.className = "timeline-text";
-		// 	pTimelineText.innerHTML = "&blacksquare; " + items[i].details[j];
-		// 	divTimelineLabel.append(pTimelineText);
-		// }
-
-		// let divTags = document.createElement("div");
-		// for (let j = 0; j < items[i].tags.length; j++) {
-		// 	let spanTags = document.createElement("span");
-		// 	spanTags.className = "badge badge-secondary";
-		// 	spanTags.innerHTML = items[i].tags[j];
-		// 	divTags.append(spanTags);
-		// }
-		// divTimelineLabel.append(divTags);
-
-		// let iFa = document.createElement("i");
-		// iFa.className = "fa fa-" + items[i].icon;
-
-		let divTimelineIcon = document.createElement("div");
-		divTimelineIcon.className = "timeline-icon color-2";
+		// let divTimelineIcon = document.createElement("div");
+		// divTimelineIcon.className = "timeline-icon color-2";
 		// divTimelineIcon.append(iFa);
 
 		let divTimelineEntryInner = document.createElement("div");
