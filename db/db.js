@@ -238,6 +238,43 @@ export default {
 		},
 		
 	],
+	activities : [
+		{
+			title: "Master of Science in Computer Science",
+			duration: "",
+			subtitle: "University of Southern California, Los Angeles, California",
+			details: [
+				"GPA: 3.66 / 4.0",
+			],
+			tags: [
+				"Analysis of Algorithms", 
+				"Database Systems", 
+				"Data Mining", 
+				"Natural Language Processing", 
+				"Web Technologies",
+			],
+			icon: "book",
+		},
+		{
+			title: "Bachelor of Engineering in Computer Engineering",
+			duration: "",
+			subtitle: "Vivekanand Education Society's Institute of Technology, Mumbai University, India",
+			details: [
+				"GPA: 9.76 / 10.00",
+				"Secured first place in second year engineering with a 10/10 GPA",
+			],
+			tags: [
+				"Data Structures",
+				"Operating Systems",
+				"Database Management System",
+				"Machine Learning",
+				"Object Oriented Programming",
+				"Cloud Computing",
+			],
+			icon: "graduation-cap",
+		},
+		
+	],
 	publication : [
 		{
 			title: "NewsCheck: A Fake News Detection and Analysis System",
