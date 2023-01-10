@@ -391,7 +391,7 @@ function populate_Activites(items, id) {
 		let spanh2 = document.createElement("span");
 		spanh2.innerHTML = items[i].duration;
 
-		let h2TimelineLabel = document.createElement("h3");
+		let h2TimelineLabel = document.createElement("h2");
 		h2TimelineLabel.innerHTML = items[i].title;
 		h2TimelineLabel.append(spanh2);
 
