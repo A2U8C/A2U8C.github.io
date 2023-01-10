@@ -240,6 +240,17 @@ export default {
 	],
 	publication : [
 		{
+			title: "NewsCheck: A Fake News Detection and Analysis System",
+			duration: "",
+			subtitle: "2022",
+			details: [
+				"https://doi.org/10.1007/978-981-16-5301-8_42",
+			],
+			tags: [
+			],
+			icon: "book",
+		},
+		{
 			title: "Cataract Eye Detection Using Machine Learning Models",
 			duration: "",
 			subtitle: "2021",
@@ -261,17 +272,7 @@ export default {
 			],
 			icon: "book",
 		},
-		{
-			title: "NewsCheck: A Fake News Detection and Analysis System",
-			duration: "",
-			subtitle: "2022",
-			details: [
-				"https://doi.org/10.1007/978-981-16-5301-8_42",
-			],
-			tags: [
-			],
-			icon: "book",
-		},
+		
 		
 	],
 	footer: [
