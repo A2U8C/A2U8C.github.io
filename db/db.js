@@ -123,7 +123,7 @@ export default {
 				techStack: ["Spark", "Scala","GraphFrames"],
 			},
 			{
-				projectName: "Hybrid Recommendation System using Spark RDD",
+				projectName: "Frequent itemsets using SON Algorithm approach with Spark RDD ",
 				image: "images/pizzaorderchatbot.png",
 				summary:
 					"Developed a system to find frequent itemset amongst two large dataset using the SON Algorithm approach. The system is used to find all the possible combinatoins of the frequent itemset.",
