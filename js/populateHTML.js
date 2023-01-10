@@ -400,8 +400,8 @@ function populate_Activites(items, id) {
 		divTimelineLabel.append(h2TimelineLabel);
 		divTimelineLabel.append(spanTimelineSublabel);
 
-		// let divTimelineIcon = document.createElement("div");
-		// divTimelineIcon.className = "timeline-icon color-2";
+		let divTimelineIcon = document.createElement("div");
+		divTimelineIcon.className = "timeline-icon color-2";
 		// divTimelineIcon.append(iFa);
 
 		let divTimelineEntryInner = document.createElement("div");
