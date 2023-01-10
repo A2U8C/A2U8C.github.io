@@ -237,6 +237,90 @@ function populateExp_Edu(items, id) {
 	mainContainer.append(article);
 }
 
+
+function populateExp_Publication(items, id) {
+	let mainContainer = document.getElementById(id);
+
+	for (let i = 0; i < items.length; i++) {
+		let spanTimelineSublabel = document.createElement("span");
+		spanTimelineSublabel.className = "timeline-sublabel";
+		spanTimelineSublabel.innerHTML = items[i].subtitle;
+
+		let spanh2 = document.createElement("span");
+		spanh2.innerHTML = items[i].duration;
+
+		let h2TimelineLabel = document.createElement("h2");
+		h2TimelineLabel.innerHTML = items[i].title;
+		h2TimelineLabel.append(spanh2);
+
+
+		let divTimelineLabel = document.createElement("div");
+		divTimelineLabel.className = "timeline-label";
+		divTimelineLabel.append(h2TimelineLabel);
+		divTimelineLabel.append(spanTimelineSublabel);
+
+		
+		let a = document.createElement("a");
+		a.href = items[i].preview;
+		a.target = "_blank";
+		a.append(divTimelineLabel);
+
+
+		for (let j = 0; j < items[i].details.length; j++) {
+			let pTimelineText = document.createElement("p");
+			pTimelineText.className = "timeline-text";
+			pTimelineText.innerHTML = "&blacksquare; " + items[i].details[j];
+			divTimelineLabel.append(pTimelineText);
+		}
+
+		let divTags = document.createElement("div");
+		for (let j = 0; j < items[i].tags.length; j++) {
+			let spanTags = document.createElement("span");
+			spanTags.className = "badge badge-secondary";
+			spanTags.innerHTML = items[i].tags[j];
+			divTags.append(spanTags);
+		}
+		divTimelineLabel.append(divTags);
+
+		let iFa = document.createElement("i");
+		iFa.className = "fa fa-" + items[i].icon;
+
+		let divTimelineIcon = document.createElement("div");
+		divTimelineIcon.className = "timeline-icon color-2";
+		divTimelineIcon.append(iFa);
+
+		let divTimelineEntryInner = document.createElement("div");
+		divTimelineEntryInner.className = "timeline-entry-inner";
+		divTimelineEntryInner.append(divTimelineIcon);
+		divTimelineEntryInner.append(divTimelineLabel);
+
+		let article = document.createElement("article");
+		article.className = "timeline-entry animate-box";
+		article.append(divTimelineEntryInner);
+
+		mainContainer.append(article);
+	}
+
+	let divTimelineIcon = document.createElement("div");
+	divTimelineIcon.className = "timeline-icon color-2";
+
+	let divTimelineEntryInner = document.createElement("div");
+	divTimelineEntryInner.className = "timeline-entry-inner";
+	divTimelineEntryInner.append(divTimelineIcon);
+
+	let article = document.createElement("article");
+	article.className = "timeline-entry begin animate-box";
+	article.append(divTimelineEntryInner);
+
+	mainContainer.append(article);
+}
+
+
+
+
+
+
+
 function populateLinks(items, id) {
 	let footer = document.getElementById(id);
 
@@ -287,6 +371,9 @@ function populateLinks(items, id) {
 	}
 }
 
+
+
+
 function getElement(tagName,className) {
 	let item = document.createElement(tagName);
 	item.className = className;
@@ -304,6 +391,8 @@ populateProjects(data.projects.android, "android-projects");
 populateProjects(data.projects.freelance, "freelance-projects");
 
 populateExp_Edu(data.experience, "experience");
+
+
 populateExp_Edu(data.education, "education");
 
 
