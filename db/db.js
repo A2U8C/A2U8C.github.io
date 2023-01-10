@@ -238,7 +238,7 @@ export default {
 		},
 		
 	],
-	publication: [
+	publication : [
 		{
 			title: "Cataract Eye Detection Using Machine Learning Models",
 			duration: "",
