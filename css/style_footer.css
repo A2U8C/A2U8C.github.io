@@ -55,18 +55,18 @@
   top: 0;
 }
 
-.footer_ui li:nth-child(1) a:before{
+.footer_ui li:nth-child(4) a:before{
   background: #ff9c1c;
 }
 
-.footer_ui li:nth-child(2) a:before{
+.footer_ui li:nth-child(1) a:before{
   background: #000;
 }
 
-.footer_ui li:nth-child(3) a:before {
+.footer_ui li:nth-child(2) a:before {
   background: #0077b5;
 }
 
-.footer_ui li:nth-child(4) a:before {
+.footer_ui li:nth-child(3) a:before {
   background: #dd4b39;
 }
