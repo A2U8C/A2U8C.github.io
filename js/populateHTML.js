@@ -369,7 +369,6 @@ function populate_Activites(items, id) {
 
 populateSkills(data.skills, "skills");
 
-fetchBlogsFromMedium();
 
 populateProjects(data.projects.web, "web-projects");
 populateProjects(data.projects.software, "software-projects");
