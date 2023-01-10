@@ -386,7 +386,7 @@ function populate_Activites(items, id) {
 	for (let i = 0; i < items.length; i++) {
 		let spanTimelineSublabel = document.createElement("span");
 		spanTimelineSublabel.className = "timeline-sublabel";
-		spanTimelineSublabel.innerHTML = items[i].subtitle;
+		// spanTimelineSublabel.innerHTML = items[i].subtitle;
 
 		let spanh2 = document.createElement("span");
 		spanh2.innerHTML = items[i].duration;
