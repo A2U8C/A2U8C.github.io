@@ -23,9 +23,9 @@ export default {
 		},
 		{
 			title: "Frameworks/Libraries",
-			skillName: "Angular, Nodejs",
+			skillName: "Angular, Nodejs, React",
 			color: "6",
-			percentage: "65",
+			percentage: "70",
 		},
 		{
 			title: "Languages",
@@ -72,6 +72,14 @@ export default {
 	],
 	projects: {
 		web: [
+			{
+				projectName: "PD WG Enigma Application",
+				image: "images/portfolio.png",
+				summary:
+					"Developing a REACT Application, based on Parkinson Disease Wiki. Worked on Flask Restful API for retrieving information from Parkinson Disease WIKI. Retrieving information about different cohorts using Flask Restful library of Python and SPARQL.",
+				preview: "https://github.com/A2U8C/React_Enigma_Application",
+				techStack: ["React", "Python", "SPARQL","Node.JS"],
+			},
 			{
 				projectName: "YelpHelper",
 				image: "images/programmingdiaries.png",
