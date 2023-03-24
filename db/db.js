@@ -147,7 +147,7 @@ export default {
 				image: "images/yelp_Android.jpg",
 				summary:
 					"Devised an android application to fetch information about 9 businesses satisfying user’s requirements. Integrated Google API and GPS to fetch geolocation of the search. Bookings stored in sharedpreferance of the application.",
-				preview: "https://drive.google.com/file/d/1d_6aZqMjSuKxTIP6rsvxUxK-VGkgy7uG/view?usp=sharing",
+				preview: "https://drive.google.com/file/d/1bGU5zyuJef8g9V10KqA-XHh3CLJGibQZ/view?usp=sharing",
 				techStack: ["JAVA", "XML", "Android"],
 			},
 			{
