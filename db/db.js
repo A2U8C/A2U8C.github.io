@@ -114,7 +114,7 @@ export default {
 		software : [
 			{
 				projectName: "Hybrid Recommendation System using Spark RDD",
-				image: "images/pizzaorderchatbot.png",
+				image: "images/pyspark.jpg",
 				summary:
 					"Developed a hybrid recommendation system using the weighted average approach to efficiently predict ratings for Yelp Data. The system is a combination of Item Based Collaborative filtering and model-based (XGBregressor) recommendation system. Achieved an RMSE of 0.9779 on the testing data.",
 				preview:
@@ -123,7 +123,7 @@ export default {
 			},
 			{
 				projectName: "Communities Detection using Spark GraphFrames",
-				image: "images/pizzaorderchatbot.png",
+				image: "images/pyspark.jpg",
 				summary:
 					"Implemented Girvan-Newman algorithm to find communities in a graph. The communities were created with a similar business taste. Implemented using edge Betweenness.",
 				preview:
@@ -132,7 +132,7 @@ export default {
 			},
 			{
 				projectName: "Frequent itemsets using SON Algorithm approach with Spark RDD ",
-				image: "images/pizzaorderchatbot.png",
+				image: "images/pyspark.jpg",
 				summary:
 					"Developed a system to find frequent itemset amongst two large dataset using the SON Algorithm approach. The system is used to find all the possible combinatoins of the frequent itemset.",
 				preview:
