@@ -184,13 +184,16 @@ export default {
 			duration: "May 2022 - Present",
 			subtitle: "Graduate Research Assistant",
 			details: [
-				"Worked on the ENIGMA Ontology, where coordinated for analyzing the data and generating information which was later uploaded to the wiki as documentation. Currently working to harmonize the alzheimer's disease data. "
+				"Worked on the ENIGMA Ontology, where coordinated for analyzing the data and generating information for documentation. Currently working on adding features to UKBB_Biobank parser using Pandas, Numpy library in python. Also working on building API for Parkinson Disease project for retrieving information about different cohorts using Flask Restful library of Python and SPARQL."
 			],
 			tags: [
 				"Python",
 				"Pandas",
 				"Numpy",
 				"Data Processing",
+				"Plotly",
+				"SPARQL",
+				"REACT"
 			],
 			icon: "heartbeat",
 		},
