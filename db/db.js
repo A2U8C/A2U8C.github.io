@@ -162,7 +162,7 @@ export default {
 		freelance : [
 			{
 				projectName: "Precondition Inference using Deberta-V3-Large model",
-				image: "images/whatsappbot.jpg",
+				image: "images/nlp_img.png",
 				summary:
 					"Dataset provided pair of sentences, the first one is considered as a precondition, while the second one is a statement. Built a system for detecting whether the precondition will enable or disable the statement. Achieved an accuracy of 90.54%. Placed in the top 20% for the accuracy of the system out of 300 students.",
 				preview: "https://github.com/vinaysomawat/WhatsApp-Bot",
@@ -170,7 +170,7 @@ export default {
 			},
 			{
 				projectName: "Hotel reviews classification using Naive Bayes classifier",
-				image: "images/billgenerator.png",
+				image: "images/nlp_img.png",
 				summary:
 					"Implemented a Naive Bayes classifier to identify hotel reviews as either truthful or deceptive, and either positive or negative. Achieved a mean F1 of 0.9219 on unseen testing data.",
 				preview: "https://github.com/A2U8C/NLP_Assignments/tree/main/NLP_NaiveBayesAlgorithms",
