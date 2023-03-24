@@ -82,9 +82,9 @@ export default {
 			},
 			{
 				projectName: "YelpHelper",
-				image: "images/programmingdiaries.png",
+				image: "images/YelpHelper.jpg",
 				summary:
-					"Deployed a responsive website to fetch information about 10 businesses satisfying user’s requirements. Bookings were saved in the localstorage of the system. The backend is developed on NodeJS which uses YELP API for data retrieval.",
+					"Deployed a responsive Angular application to fetch information about 10 businesses satisfying user’s requirements. Bookings were saved in the localstorage of the system. The backend is developed on NodeJS which uses YELP API for data retrieval.",
 				preview: "https://angular-yelp-project.wl.r.appspot.com/",
 				techStack: [
 					"Angular",
@@ -96,7 +96,7 @@ export default {
 			},
 			{
 				projectName: "YELPify",
-				image: "images/findyourbank.png",
+				image: "images/YELPify.jpg",
 				summary:
 					"Deployed a website to fetch information about 20 businesses satisfying user’s requirements using Flask. Integrated ipinfo.io API to fetch user’s geolocation.",
 				preview: "https://web-yelp-project.wl.r.appspot.com/",
