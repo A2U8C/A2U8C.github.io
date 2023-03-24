@@ -165,7 +165,7 @@ export default {
 				image: "images/nlp_img.png",
 				summary:
 					"Dataset provided pair of sentences, the first one is considered as a precondition, while the second one is a statement. Built a system for detecting whether the precondition will enable or disable the statement. Achieved an accuracy of 90.54%. Placed in the top 20% for the accuracy of the system out of 300 students.",
-				preview: "https://github.com/vinaysomawat/WhatsApp-Bot",
+				preview: "https://github.com/A2U8C/",
 				techStack: ["Deberta-V3-Large", "Python", "Machine Learning"],
 			},
 			{
