@@ -104,7 +104,7 @@ export default {
 			},
 			{
 				projectName: "Car Rental management system using Laravel",
-				image: "images/portfolio.png",
+				image: "images/laravel.jpg",
 				summary:
 					"Developed a website to help user to rent or borrow a vehicle. Orders and details were stored in MySQL database. Renters can view rented vehicles and then access details by means of dashboard.",
 				preview: "https://github.com/A2U8C/Laravel_Project-Car_Rental_System",
