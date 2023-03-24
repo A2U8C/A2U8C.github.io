@@ -144,15 +144,15 @@ export default {
 		android : [
 			{
 				projectName: "Yelper: Android application with Node.js backend and YELP API",
-				image: "images/nitwcse.jpg",
+				image: "images/yelp_Android.jpg",
 				summary:
 					"Devised an android application to fetch information about 9 businesses satisfying user’s requirements. Integrated Google API and GPS to fetch geolocation of the search. Bookings stored in sharedpreferance of the application.",
-				preview: "https://github.com/vinaysomawat/NITW-CSE",
+				preview: "https://drive.google.com/file/d/1d_6aZqMjSuKxTIP6rsvxUxK-VGkgy7uG/view?usp=sharing",
 				techStack: ["JAVA", "XML", "Android"],
 			},
 			{
 				projectName: "Android Application for Patrolling officers",
-				image: "images/carrerhigh.png",
+				image: "images/ds164.jpeg",
 				summary:
 					"Coded a mobile application for Patrolling officers to increase safety and efficiency. Application provides SOS feature, enabling an officer to contact closest officer via location of all officers. Additionally, it records movement of user.",
 				preview: "https://github.com/A2U8C/DS164_A2M",
