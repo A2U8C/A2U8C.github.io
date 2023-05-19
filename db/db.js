@@ -218,7 +218,7 @@ export default {
 			duration: "",
 			subtitle: "University of Southern California, Los Angeles, California",
 			details: [
-				"GPA: 3.66 / 4.0",
+				"GPA: 3.72 / 4.0",
 			],
 			tags: [
 				"Analysis of Algorithms", 
