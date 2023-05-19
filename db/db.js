@@ -25,7 +25,7 @@ export default {
 			title: "Frameworks/Libraries",
 			skillName: "Angular, Nodejs, React",
 			color: "6",
-			percentage: "70",
+			percentage: "80",
 		},
 		{
 			title: "Languages",
@@ -49,19 +49,19 @@ export default {
 			title: "Version Control",
 			skillName: "GitHub",
 			color: "7",
-			percentage: "70",
+			percentage: "75",
 		},
 		{
 			title: "Tools",
 			skillName: "Jupyter Notebook, Pycharm",
 			color: "3",
-			percentage: "80",
+			percentage: "90",
 		},
 		{
 			title: "Frameworks",
 			skillName: "PySpark, Flask",
 			color: "5",
-			percentage: "85",
+			percentage: "90",
 		},
 		{
 			title: "API",
